@@ -1,5 +1,5 @@
 <template>
-  <PageHeader />
+  <PageHeader :navLinks="navLinks" :headerImages="headerImages" />
   <MainPage />
   <PageFooter />
 </template>
@@ -13,7 +13,25 @@ export default {
   components: {
     PageHeader,
     MainPage,
-    PageFooter,
+    PageFooter
+  },
+  data() {
+    return {
+      navLinks: [        
+        { text: 'Home', url: '#' },
+        { text: 'Fixtures & Results', url: '#' },
+        { text: 'League Table', url: '#' },
+        { text: 'Players', url: '#' },
+        { text: 'Gallery', url: '#' },
+        { text: 'Blog', url: '#' },
+        { text: 'Contact', url: '#' },
+      ],
+      headerImages: [
+        '../assets/sponsor.1.png',
+        '../assets/sponsor.2.png', 
+        '../assets/favicon-football.png'
+      ],
+    }
   }
 }
 </script>
