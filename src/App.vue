@@ -1,7 +1,7 @@
 <template>
-  <pageheader />
-  <mainpage />
-  <pagefooter />
+  <PageHeader />
+  <MainPage />
+  <PageFooter />
 </template>
 
 <script>
@@ -14,7 +14,7 @@ export default {
     PageHeader,
     MainPage,
     PageFooter,
-  },
+  }
 }
 </script>
 
