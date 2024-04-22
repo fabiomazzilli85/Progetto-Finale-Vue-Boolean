@@ -1,9 +1,5 @@
 <template>
     <div class="main-header">
-        <div class="header-image">
-            <img v-for="image in headerImages" :key="image" :src="image">
-        </div>
-
         <div class="navLinks">
             <nav>
                 <ul>
@@ -20,10 +16,6 @@
 export default {
     props: {
         navLinks: {
-            type: Array,
-            default: () => [],
-        },
-        headerImages: {
             type: Array,
             default: () => [],
         },
