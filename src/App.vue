@@ -1,5 +1,5 @@
 <template>
-  <PageHeader :navLinks="navLinks" :headerImages="headerImages" />
+  <PageHeader :navLinks="navLinks" />
   <MainPage />
   <PageFooter />
 </template>
@@ -15,6 +15,7 @@ export default {
     MainPage,
     PageFooter
   },
+
   data() {
     return {
       navLinks: [
@@ -25,11 +26,6 @@ export default {
         { text: 'Gallery', url: '#' },
         { text: 'Blog', url: '#' },
         { text: 'Contact', url: '#' },
-      ],
-      headerImages: [
-        './assets/sponsor1.png',
-        './assets/sponsor2.png',
-        './assets/favicon-football.png'
       ],
     }
   }
