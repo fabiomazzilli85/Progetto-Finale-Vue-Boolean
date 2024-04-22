@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 .main-header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 10px 20px;
     width: 100%;
 }
@@ -46,5 +46,6 @@ ul {
 a {
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 </style>
