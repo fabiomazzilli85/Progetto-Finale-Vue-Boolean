@@ -27,8 +27,8 @@ export default {
         { text: 'Contact', url: '#' },
       ],
       headerImages: [
-        '../assets/sponsor.1.png',
-        '../assets/sponsor.2.png', 
+        '../assets/sponsor1.png',
+        '../assets/sponsor2.png', 
         '../assets/favicon-football.png'
       ],
     }
