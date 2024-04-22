@@ -35,6 +35,7 @@ export default {
 .main-header {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
+    width: 100%;
 }
 
 ul {
