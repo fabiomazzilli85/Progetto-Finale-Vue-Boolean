@@ -1,7 +1,7 @@
 <template>
     <div class="main-header">
         <div class="header-image">
-            <img v-for="(image, index) in headerImages" :key="index" :src="image" :alt="'Immagine ' + (index + 1)">
+            <img v-for="image in headerImages" :key="image" :src="image">
         </div>
 
         <div class="navLinks">
