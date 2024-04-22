@@ -17,7 +17,7 @@ export default {
   },
   data() {
     return {
-      navLinks: [        
+      navLinks: [
         { text: 'Home', url: '#' },
         { text: 'Fixtures & Results', url: '#' },
         { text: 'League Table', url: '#' },
@@ -27,9 +27,9 @@ export default {
         { text: 'Contact', url: '#' },
       ],
       headerImages: [
-        '../assets/sponsor1.png',
-        '../assets/sponsor2.png', 
-        '../assets/favicon-football.png'
+        'assets/sponsor1.png',
+        'assets/sponsor2.png',
+        'assets/favicon-football.png'
       ],
     }
   }
