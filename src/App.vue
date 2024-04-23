@@ -80,7 +80,7 @@ export default {
         ]
       },
 
-      // In PageFooter ci sono quattro blocchi che "spedisco" da faAppStore.vue tramite props. Stampo diversi elementi, tra cui testi, liste, bottoni...
+      // In PageFooter ci sono quattro blocchi che "spedisco" da App.vue tramite props. Stampo diversi elementi, tra cui testi, liste, bottoni...
     };
   }
 };
