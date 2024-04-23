@@ -1,7 +1,9 @@
 <template>
-  <PageHeader :navLinks="navLinks" />
-  <MainPage />
-  <PageFooter />
+  <div>
+    <PageHeader :navLinks="navLinks" :imageHeaders="imageHeaders" />
+    <MainPage />
+    <PageFooter />
+  </div>
 </template>
 
 <script>
@@ -25,11 +27,16 @@ export default {
         { text: 'Players', url: '#' },
         { text: 'Gallery', url: '#' },
         { text: 'Blog', url: '#' },
-        { text: 'Contact', url: '#' },
+        { text: 'Contact', url: '#' }
       ],
-    }
+      // imageHeaders: [
+      //   "../assets/sponsor1.png",
+      //   "../assets/sponsor2.png",
+      //   "../assets/logo-football.png"
+      // ]
+    };
   }
-}
+};
 </script>
 
 <style lang="scss">
