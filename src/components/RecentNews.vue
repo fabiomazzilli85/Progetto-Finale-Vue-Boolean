@@ -1,7 +1,7 @@
 <template>
     <section class="bg-white mr-section">
         <div class="article">
-            <img class="like" src="../assets/like.jpg" alt="">
+            <img class="like" src="../assets/like.png" alt="">
             <h2 class="color-text">Recent News & Articles</h2>
             <p class="color-text">Be aware of the football world.</p>
         </div>
@@ -94,6 +94,6 @@
 }
 
 .mr-section {
-    margin: 45px 0;
+    margin: 65px 0;
 }
 </style>
