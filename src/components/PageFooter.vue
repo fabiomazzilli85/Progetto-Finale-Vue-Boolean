@@ -1,6 +1,7 @@
 <template>
     <footer class="container">
         <div class="row">
+           
             <div class="mr-list-block col-md-2">
                 <!-- Contenuto del blocco 1 -->
                 <img :src="block1.imageSrc" />
@@ -47,6 +48,7 @@
                     </ul>
                 </div>
             </div>
+            
         </div>
     </footer>
 </template>
@@ -59,7 +61,11 @@ export default {
         block2: Object,
         block3: Object,
         block4: Object,
-    },
+        imageSrc: {
+            type: String,
+            required: true
+        }
+    }
 };
 </script>
 
