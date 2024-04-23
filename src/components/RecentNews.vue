@@ -45,7 +45,7 @@
 <script>
 </script>
 
-<style>
+<style lang="scss" scoped>
 .bg-white {
     background-color: #f3f3f3;
     padding: 20px 0;
