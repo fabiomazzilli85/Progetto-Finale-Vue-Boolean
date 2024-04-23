@@ -3,6 +3,7 @@
     <PageHeader :navLinks="navLinks" :imageHeaders="imageHeaders" />
     <MainPage />
     <CardPlayer />
+    <TableResults />
     <RecentNews />
     <PageFooter :block1="block1" :block2="block2" :block3="block3" :block4="block4" :imageSrc="imageSrc" />
   </div>
@@ -14,6 +15,7 @@
 import PageHeader from './components/PageHeader.vue';
 import MainPage from './components/MainPage.vue';
 import CardPlayer from './components/CardPlayer.vue';
+import TableResults from './components/TableResults.vue';
 import RecentNews from './components/RecentNews.vue';
 import PageFooter from './components/PageFooter.vue';
 
@@ -24,6 +26,7 @@ export default {
     PageHeader,
     MainPage,
     CardPlayer,
+    TableResults,
     RecentNews,
     PageFooter
   },
