@@ -68,20 +68,20 @@ export default {
       block3: {
         title: "Education",
         listItems: [
-          { text: "Fixtures & Results" },
-          { text: "Legal Table" },
-          { text: "Player" },
-          { text: "Galery" }
+          { text: "Fixtures & Results", url: "#" },
+          { text: "Legal Table", url: "#" },
+          { text: "Player", url: "#" },
+          { text: "Galery", url: "#" }
         ]
       },
 
       block4: {
         title: "Quick Links",
         listItems: [
-          { text: "Home" },
-          { text: "Blog" },
-          { text: "Gallery" },
-          { text: "Contact" }
+          { text: "Home", url: "#" },
+          { text: "Blog", url: "#" },
+          { text: "Gallery", url: "#" },
+          { text: "Contact", url: "#" }
         ]
       },
 

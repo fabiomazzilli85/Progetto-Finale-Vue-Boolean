@@ -25,11 +25,9 @@
                 <!-- Contenuto del blocco 3 -->
                 <div>
                     <h2>{{ block3.title }}</h2>
-                    <ul>
-                        <li class="footer-list" v-for="item in block3.listItems" :key="item.text">
-                            {{ item.text }}
-                        </li>
-                    </ul>
+                    <div v-for="(item, index) in block3.listItems" :key="index">
+                        <a :href="item.url">{{ item.text }}</a>
+                    </div>
                 </div>
             </div>
 
@@ -38,11 +36,9 @@
                 <!-- Contenuto del blocco 4 -->
                 <div>
                     <h2>{{ block4.title }}</h2>
-                    <ul>
-                        <li class="footer-list" v-for="item in block4.listItems" :key="item.text">
-                            {{ item.text }}
-                        </li>
-                    </ul>
+                    <div v-for="(item, index) in block4.listItems" :key="index">
+                        <a :href="item.url">{{ item.text }}</a>
+                    </div>
                 </div>
             </div>
 
@@ -58,10 +54,6 @@ export default {
         block2: Object,
         block3: Object,
         block4: Object,
-        imageSrc: {
-            type: String,
-            required: true
-        }
     }
 };
 </script>
@@ -108,4 +100,8 @@ footer {
     gap: 45px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 </style>
