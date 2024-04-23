@@ -100,7 +100,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-image: url("../assets/footer-bg-football.jpg");
     padding: 30px;
     line-height: 35px;
 }
