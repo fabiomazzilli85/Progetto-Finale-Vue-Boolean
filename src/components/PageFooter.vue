@@ -1,6 +1,6 @@
 <template>
     <footer class="container">
-        <div class="row">
+        <div class="row footer-flex">
 
             <div class="mr-list-block col-md-2">
                 <!-- Contenuto del blocco 1 -->
@@ -14,9 +14,9 @@
 
             <div class="col-md-6">
                 <!-- Contenuto del blocco 2 -->
-                <h2>{{ block2.title }}</h2>
+                <h2 class="footer-paragraph">{{ block2.title }}</h2>
                 <p class="footer-paragraph">{{ block2.paragraph }}</p>
-                <div v-for="(button, index) in block2.buttons" :key="index">
+                <div class="footer-paragraph" v-for="(button, index) in block2.buttons" :key="index">
                     <button>{{ button.text }}</button>
                 </div>
             </div>
@@ -75,6 +75,7 @@ button {
     border: none;
     margin: 10px;
     text-align: center;
+    width: 250px;
 }
 
 .footer-list {
@@ -82,7 +83,7 @@ button {
 }
 
 .footer-paragraph {
-    width: 550px;
+    width: 350px;
 }
 
 .mr-list {
@@ -94,11 +95,16 @@ button {
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
     background-image: url("../assets/footer-bg-football.jpg");
     padding: 30px;
     line-height: 35px;
 }
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
 </style>
