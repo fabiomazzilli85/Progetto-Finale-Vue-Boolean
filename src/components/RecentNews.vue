@@ -52,7 +52,7 @@
 }
 
 .like {
-    width: 150px;
+    width: 100px;
 }
 
 .color-text {
