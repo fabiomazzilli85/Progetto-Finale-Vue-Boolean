@@ -76,6 +76,7 @@ button {
     margin: 10px;
     text-align: center;
     width: 250px;
+    cursor: pointer;
 }
 
 .footer-list {
