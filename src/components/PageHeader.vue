@@ -9,6 +9,13 @@
                 </ul>
             </nav>
         </div>
+        <div class="sponsor-logos">
+            <img src="../assets/sponsor1.png">
+            <img src="../assets/logo-football.png">
+            <img src="../assets/sponsor2.png">
+            <font-awesome-icon :icon="['fab', 'facebook-f']" />
+            <!-- <img v-for="(image, index) in imageHeaders" :src="image" :key="index" class="sponsor-logo" /> -->
+        </div>
     </div>
 </template>
 
@@ -17,9 +24,13 @@ export default {
     props: {
         navLinks: {
             type: Array,
-            default: () => [],
+            required: true
         },
-    },
+        // imageHeaders: {
+        //     type: Array,
+        //     required: true
+        // }
+    }
 };
 </script>
 
