@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white mr-section">
+    <section class="bg-white pd-bottom-section">
         <div class="article">
             <img class="like" src="../assets/like.png" alt="">
             <h2 class="color-text">Recent News & Articles</h2>
@@ -95,7 +95,7 @@
     padding: 0 13px;
 }
 
-.mr-section {
-    margin: 65px 0;
+.pd-bottom-section {
+    padding-bottom: 60px;
 }
 </style>
