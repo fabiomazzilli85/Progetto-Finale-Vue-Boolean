@@ -17,3 +17,8 @@ body {
 ul, li {
     list-style: none;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
