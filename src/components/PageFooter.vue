@@ -1,7 +1,7 @@
 <template>
     <footer class="container">
         <div class="row">
-           
+
             <div class="mr-list-block col-md-2">
                 <!-- Contenuto del blocco 1 -->
                 <img :src="block1.imageSrc" />
@@ -16,13 +16,10 @@
                 <!-- Contenuto del blocco 2 -->
                 <h2>{{ block2.title }}</h2>
                 <p class="footer-paragraph">{{ block2.paragraph }}</p>
-                <div>
-                    <button v-for="(button, index) in block2.buttons" :key="index">
-                        {{ button.text }}
-                    </button>
+                <div v-for="(button, index) in block2.buttons" :key="index">
+                    <button>{{ button.text }}</button>
                 </div>
             </div>
-
 
             <div class="mr-list col-md-2">
                 <!-- Contenuto del blocco 3 -->
@@ -48,7 +45,7 @@
                     </ul>
                 </div>
             </div>
-            
+
         </div>
     </footer>
 </template>
