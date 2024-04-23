@@ -32,10 +32,46 @@ export default {
         { text: 'Contact', url: '#' }
       ],
 
-      block1: "Contenuto blocco 1",
-      block2: "Contenuto blocco 2",
-      block3: "Contenuto blocco 3",
-      block4: "Contenuto blocco 4",
+      block1: {
+        imageSrc: "../assets/logo-footer-football.png",
+        listItems: [
+          { text: "New Jersey, USA" },
+          { text: "+12345678910" },
+          { text: "example@example.it" }
+        ]
+      },
+
+      block2: {
+        title: "Join Our Newsletter",
+        paragraph: "Subscribe to be informed about important developments in our club and football world.",
+        buttons: [
+          { text: "Your Email Addreess", url: "#" },
+          { text: "Subscribe", url: "#" }
+        ]
+      },
+
+      block3: {
+        title: "Education",
+        listItems: [
+          { text: "Fixtures & Results" },
+          { text: "Legal Table" },
+          { text: "Player" },
+          { text: "Galery" }
+        ]
+      },
+
+      block4: {
+        title: "Quick Links",
+        listItems: [
+          { text: "Home" },
+          { text: "Blog" },
+          { text: "Gallery" },
+          { text: "Contact" }
+        ]
+      },
+    
+
+
       // imageHeaders: [
       //   "../assets/sponsor1.png",
       //   "../assets/sponsor2.png",
