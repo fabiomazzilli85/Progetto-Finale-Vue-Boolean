@@ -13,7 +13,6 @@
 
             <div class="col-md-6">
                 <!-- Contenuto del blocco 2 -->
-
                 <h2>{{ block2.title }}</h2>
                 <p>{{ block2.paragraph }}</p>
                 <div>
