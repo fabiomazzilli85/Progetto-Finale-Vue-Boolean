@@ -18,7 +18,7 @@
             <div class="card-article">
                 <img src="../assets/news3-1-223x223.png" alt="">
                 <p class="color-text">29.05.2022</p>
-                <h2 class="color-text">Foorbal Rules</h2>
+                <h2 class="color-text">Footbal Rules</h2>
                 <p class="color-text text-width">GOLDEN GOAL: in a football match, the goal scored by one of the teamin [...]</p>
                 <button class="more-button">More</button>
             </div>
@@ -27,7 +27,7 @@
                 <img src="../assets/news2-1-223x223.png" alt="">
                 <p class="color-text">29.05.2022</p>
                 <h2 class="color-text">Football Features</h2>
-                <p class="color-text text-width">Football; it is an aerobic-based anareobic sport in which jumps, kicks, turns, running with changing[...]</p>
+                <p class="color-text text-width">Football; it is an aerobic-based anareobic sport in which jumps, kicks, turns [...]</p>
                 <button class="more-button">More</button>
             </div>
 
@@ -91,6 +91,8 @@
     flex-direction: column;
     align-items: center;
     border: 1px solid lightgrey;
+    line-height: 27px;
+    padding: 0 13px;
 }
 
 .mr-section {
