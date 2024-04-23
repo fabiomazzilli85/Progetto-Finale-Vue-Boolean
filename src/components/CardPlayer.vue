@@ -74,12 +74,12 @@ h2 {
 }
 
 .button-players {
-    background-color: rgb(33, 26, 26);
+    background-color: black;
     color: white;
     font-weight: 700;
-    padding: 15px;
+    padding: 15px 40px;
     border-radius: 25px;
-    border: white;
+    border: 1px solid white;
     cursor: pointer;
 }
 
