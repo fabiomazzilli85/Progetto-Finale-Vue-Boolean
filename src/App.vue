@@ -33,8 +33,6 @@ export default {
 
   data() {
     return {
-      imageSrc: "./assets/logo-footer-football.png",
-
       // Ho usato la props per restituire img da App.vue a PageFooter, purtroppo non ha funzionato e non visualizzo l'immagine.
 
       navLinks: [
