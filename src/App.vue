@@ -2,7 +2,7 @@
   <div>
     <PageHeader :navLinks="navLinks" :imageHeaders="imageHeaders" />
     <MainPage />
-    <PageFooter :block1="block1" :block2="block2" :block3="block3" :block4="block4" />
+    <PageFooter :block1="block1" :block2="block2" :block3="block3" :block4="block4" :imageSrc="imageSrc" />
   </div>
 </template>
 
@@ -20,6 +20,8 @@ export default {
 
   data() {
     return {
+      imageSrc: "./assets/logo-footer-football.png",
+    
       navLinks: [
         { text: 'Home', url: '#' },
         { text: 'Fixtures & Results', url: '#' },
@@ -31,7 +33,7 @@ export default {
       ],
 
       block1: {
-        imageSrc: "../assets/logo-footer-football.png",
+        imageSrc: "./assets/logo-footer-football.png",
         listItems: [
           { text: "New Jersey, USA" },
           { text: "+12345678910" },
