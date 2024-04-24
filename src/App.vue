@@ -1,11 +1,11 @@
 <template>
   <div>
-    <PageHeader :navLinks="navLinks" :imageHeaders="imageHeaders" :backgroundImage="backgroundImage"/>
+    <PageHeader :navLinks="navLinks"/>
     <MainPage />
     <CardPlayer />
     <TableResults />
     <RecentNews />
-    <PageFooter :block1="block1" :block2="block2" :block3="block3" :block4="block4" :imageSrc="imageSrc" />
+    <PageFooter :block1="block1" :block2="block2" :block3="block3" :block4="block4" />
   </div>
   <!-- 
   Inseriti in template quattro componenti: PageHeader, MainPage, CardPlayer e PageFooter. In PageHeader e in PageFooter utilizzano le props. -->

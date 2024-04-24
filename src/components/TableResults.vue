@@ -301,7 +301,6 @@ h2 {
     color: white;
 }
 
-
 .flex-table {
     display: flex;
     justify-content: space-between;
