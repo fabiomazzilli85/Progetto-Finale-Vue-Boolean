@@ -5,26 +5,25 @@
 
             <div class="flex-players">
                 <div class="card-player">
-                    <img class="foto-player" src="../assets/player1.jpg" alt="">
+                    <img class="foto-player" src="../assets/player1.jpg">
                     <h2>07</h2>
                     <p>Adam Brown</p>
                 </div>
 
                 <div class="card-player">
-                    <img class="foto-player" src="../assets/player2.jpg" alt="">
+                    <img class="foto-player" src="../assets/player2.jpg">
                     <h2>09</h2>
                     <p>Michael Kayn</p>
                 </div>
 
                 <div class="card-player">
-                    <img class="foto-player" src="../assets/player3.jpg" alt="">
-                    <img src="" alt="">
+                    <img class="foto-player" src="../assets/player3.jpg">
                     <h2>11</h2>
                     <p>Michael Lee - Forwarder</p>
                 </div>
 
                 <div class="card-player">
-                    <img class="foto-player" src="../assets/player4.jpg" alt="">
+                    <img class="foto-player" src="../assets/player4.jpg">
                     <h2>15</h2>
                     <p>Ethan Smith - Midfielder</p>
                 </div>
