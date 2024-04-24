@@ -326,5 +326,7 @@ h2 {
 
 .vs-align {
     vertical-align: middle;
+    font-weight: 800;
+    font-size: 18px;
 }
 </style>
