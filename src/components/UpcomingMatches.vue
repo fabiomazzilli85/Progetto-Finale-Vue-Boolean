@@ -4,11 +4,11 @@
         
 
         <div class="flex-match">
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 Shalke Club
                 <img class="logo" src="../assets/league-club-3.png">
             </div>
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 Inter Club
                 <img class="logo" src="../assets/league-club-4.png">
             </div>
@@ -20,11 +20,11 @@
 
 
         <div class="flex-match">
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 Atletico Club
                 <img class="logo" src="../assets/club-9.png">
             </div>
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 Shalke Club
                 <img class="logo" src="../assets/club-6.png">
             </div>
@@ -35,11 +35,11 @@
         </div>
 
         <div class="flex-match">
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 Unied Fs Club
                 <img class="logo" src="../assets/club-2.png">
             </div>
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 Bayern Club
                 <img class="logo" src="../assets/club-11.png">
             </div>
@@ -50,11 +50,11 @@
          </div>
 
         <div class="flex-match">
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 Arsenal Club
                 <img class="logo" src="../assets/club-7.png">
             </div>
-             <div class="flex-club">
+             <div class="flex-club font-club">
                 Atletico Club
                 <img class="logo" src="../assets/club-9.png">
             </div>
@@ -66,11 +66,11 @@
 
 
         <div class="flex-match">
-             <div class="flex-club">
+             <div class="flex-club font-club">
                  Istanbul Sportds
                  <img class="logo" src="../assets/club-11.png">
             </div>
-            <div class="flex-club">
+            <div class="flex-club font-club">
                 United Fs Club
                 <img class="logo" src="../assets/club-2.png">
             </div>
@@ -117,6 +117,9 @@ p {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.font-club {
     color: white;
     font-size: 22px;
 }
