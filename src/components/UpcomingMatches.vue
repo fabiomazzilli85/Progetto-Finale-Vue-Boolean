@@ -8,6 +8,7 @@
                 Shalke Club
                 <img class="logo" src="../assets/league-club-3.png">
             </div>
+            <div class="vs-font">VS</div>
             <div class="flex-club font-club">
                 Inter Club
                 <img class="logo" src="../assets/league-club-4.png">
@@ -24,6 +25,7 @@
                 Atletico Club
                 <img class="logo" src="../assets/club-9.png">
             </div>
+            <div class="vs-font">VS</div>
             <div class="flex-club font-club">
                 Shalke Club
                 <img class="logo" src="../assets/club-6.png">
@@ -39,6 +41,7 @@
                 Unied Fs Club
                 <img class="logo" src="../assets/club-2.png">
             </div>
+            <div class="vs-font">VS</div>
             <div class="flex-club font-club">
                 Bayern Club
                 <img class="logo" src="../assets/club-11.png">
@@ -54,7 +57,8 @@
                 Arsenal Club
                 <img class="logo" src="../assets/club-7.png">
             </div>
-             <div class="flex-club font-club">
+            <div class="vs-font">VS</div>
+            <div class="flex-club font-club">
                 Atletico Club
                 <img class="logo" src="../assets/club-9.png">
             </div>
@@ -70,6 +74,7 @@
                  Istanbul Sportds
                  <img class="logo" src="../assets/club-11.png">
             </div>
+            <div class="vs-font">VS</div>
             <div class="flex-club font-club">
                 United Fs Club
                 <img class="logo" src="../assets/club-2.png">
@@ -96,6 +101,12 @@
 h2 {
     margin: 15px 0;
     text-align: center;
+    color: white;
+}
+
+.vs-font {
+    font-size: 18px;
+    font-weight: 800;
     color: white;
 }
 
