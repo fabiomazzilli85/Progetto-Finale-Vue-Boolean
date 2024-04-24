@@ -33,7 +33,7 @@ export default {
 
   data() {
     return {
-      // Ho usato la props per restituire img da App.vue a PageFooter, purtroppo non ha funzionato e non visualizzo l'immagine.
+      backgroundImage: require("./assets/slider2-1.jpg"),
 
       navLinks: [
         { text: 'Home', url: '#' },
