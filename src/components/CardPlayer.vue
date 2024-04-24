@@ -1,37 +1,39 @@
 <template>
-    <section class="players">
-        <h2>Players</h2>
+    <div class="container">
+        <section class="players">
+            <h2>Players</h2>
 
-        <div class="flex-players">
-            <div class="card-player">
-                <img class="foto-player" src="../assets/player1.jpg" alt="">
-                <h2>07</h2>
-                <p>Adam Brown</p>
-            </div>
+            <div class="flex-players">
+                <div class="card-player">
+                    <img class="foto-player" src="../assets/player1.jpg" alt="">
+                    <h2>07</h2>
+                    <p>Adam Brown</p>
+                </div>
 
-            <div class="card-player">
-                <img class="foto-player" src="../assets/player2.jpg" alt="">
-                <h2>09</h2>
-                <p>Michael Kayn</p>
-            </div>
+                <div class="card-player">
+                    <img class="foto-player" src="../assets/player2.jpg" alt="">
+                    <h2>09</h2>
+                    <p>Michael Kayn</p>
+                </div>
 
-            <div class="card-player">
-                <img class="foto-player" src="../assets/player3.jpg" alt="">
-                <img src="" alt="">
-                <h2>11</h2>
-                <p>Michael Lee - Forwarder</p>
-            </div>
+                <div class="card-player">
+                    <img class="foto-player" src="../assets/player3.jpg" alt="">
+                    <img src="" alt="">
+                    <h2>11</h2>
+                    <p>Michael Lee - Forwarder</p>
+                </div>
 
-            <div class="card-player">
-                <img class="foto-player" src="../assets/player4.jpg" alt="">
-                <h2>15</h2>
-                <p>Ethan Smith - Midfielder</p>
+                <div class="card-player">
+                    <img class="foto-player" src="../assets/player4.jpg" alt="">
+                    <h2>15</h2>
+                    <p>Ethan Smith - Midfielder</p>
+                </div>
             </div>
-        </div>
-        <div class="flex-button">
-            <button class="button-players">View All Player</button>
-        </div>
-    </section>
+            <div class="flex-button">
+                <button class="button-players">View All Player</button>
+            </div>
+        </section>
+    </div>
 </template>
 
 <script>
