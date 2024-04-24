@@ -8,8 +8,6 @@
     <RecentNews />
     <PageFooter :block1="block1" :block2="block2" :block3="block3" :block4="block4" />
   </div>
-  <!-- 
-  Inseriti in template quattro componenti: PageHeader, MainPage, CardPlayer e PageFooter. In PageHeader e in PageFooter utilizzano le props. -->
 </template>
 
 <script>
@@ -36,8 +34,6 @@ export default {
 
   data() {
     return {
-      // Ho usato la props per restituire img da App.vue a PageFooter, purtroppo non ha funzionato e non visualizzo l'immagine.
-
       navLinks: [
         { text: 'Home', url: '#' },
         { text: 'Fixtures & Results', url: '#' },
@@ -48,7 +44,6 @@ export default {
         { text: 'Contact', url: '#' }
       ],
 
-      // Sto passando un testo e una url vuota, che poi saranno ripresi in PageHeader tramite props.
 
       block1: {
         imageSrc: "./assets/logo-footer-football.png",
