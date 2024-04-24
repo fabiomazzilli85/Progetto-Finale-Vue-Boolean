@@ -15,7 +15,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1 Istanul Sports</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-1.png" alt="">
+                                1 Istanul Sports</td>
                             <td>18</td>
                             <td>2</td>
                             <td>0</td>
@@ -23,7 +25,9 @@
                         </tr>
 
                         <tr>
-                            <td>2 United Fs Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-2.png" alt="">
+                                2 United Fs Club</td>
                             <td>14</td>
                             <td>2</td>
                             <td>1</td>
@@ -31,7 +35,9 @@
                         </tr>
 
                         <tr>
-                            <td>3 Shalke Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-3.png" alt="">
+                                3 Shalke Club</td>
                             <td>13</td>
                             <td>3</td>
                             <td>0</td>
@@ -39,7 +45,9 @@
                         </tr>
 
                         <tr>
-                            <td>4 Inter Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-4.png" alt="">
+                                4 Inter Club</td>
                             <td>13</td>
                             <td>2</td>
                             <td>1</td>
@@ -47,7 +55,9 @@
                         </tr>
 
                         <tr>
-                            <td>5 Madrid Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-5.png" alt="">
+                                5 Madrid Club</td>
                             <td>12</td>
                             <td>1</td>
                             <td>2</td>
@@ -55,7 +65,9 @@
                         </tr>
 
                         <tr>
-                            <td>6 Shalke Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-6.png" alt="">
+                                6 Shalke Club</td>
                             <td>11</td>
                             <td>0</td>
                             <td>3</td>
@@ -63,7 +75,9 @@
                         </tr>
 
                         <tr>
-                            <td>7 Arsenal Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-7.png" alt="">
+                                7 Arsenal Club</td>
                             <td>10</td>
                             <td>5</td>
                             <td>0</td>
@@ -71,7 +85,9 @@
                         </tr>
 
                         <tr>
-                            <td>8 Bayern Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-8.png" alt="">
+                                8 Bayern Club</td>
                             <td>10</td>
                             <td>2</td>
                             <td>2</td>
@@ -79,7 +95,9 @@
                         </tr>
 
                         <tr>
-                            <td>9 Atletico Club</td>
+                            <td>
+                                <img class="logo" src="../assets/league-club-9.png" alt="">
+                                9 Atletico Club</td>
                             <td>9</td>
                             <td>0</td>
                             <td>4</td>
@@ -278,26 +296,21 @@ h2 {
     margin: 10px 5px;
 }
 
-
 .bg-botton {
     background-color:black;
     color: white;
 }
 
-.match {
-    line-height: 40px;
-}
 
 .flex-table {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
 }
 
 .padding-table {
     padding: 15px;
     width: 520px;
-    height: 700px;
+    height: 400px;
 }
 
 .logo {
