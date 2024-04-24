@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageHeader :navLinks="navLinks" :imageHeaders="imageHeaders" />
+    <PageHeader :navLinks="navLinks" :imageHeaders="imageHeaders" :backgroundImage="backgroundImage"/>
     <MainPage />
     <CardPlayer />
     <TableResults />
@@ -33,7 +33,7 @@ export default {
 
   data() {
     return {
-      backgroundImage: require("./assets/slider2-1.jpg"),
+      // Ho usato la props per restituire img da App.vue a PageFooter, purtroppo non ha funzionato e non visualizzo l'immagine.
 
       navLinks: [
         { text: 'Home', url: '#' },
