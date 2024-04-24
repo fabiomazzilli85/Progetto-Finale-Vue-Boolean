@@ -114,14 +114,14 @@
                     <tbody>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
-                                    Istanul Sport
+                                <div class="flex-team">
+                                    Istabul Sport
                                     <img class="logo" src="../assets/league-club-1.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     United FS Club
                                     <img class="logo" src="../assets/league-club-2.png">
                                 </div>
@@ -129,14 +129,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Shalke Club
                                     <img class="logo" src="../assets/league-club-3.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Inter Club
                                     <img class="logo" src="../assets/league-club-4.png">
                                 </div>
@@ -144,14 +144,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Madrid Club
                                     <img class="logo" src="../assets/league-club-5.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Shalke Club
                                     <img class="logo" src="../assets/league-club-6.png">
                                 </div>
@@ -159,14 +159,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Arsenal Club
                                     <img class="logo" src="../assets/league-club-7.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Bayern Club
                                     <img class="logo" src="../assets/league-club-8.png">
                                 </div>
@@ -174,14 +174,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Atletico Club
                                     <img class="logo" src="../assets/league-club-9.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Istanul Sport
                                     <img class="logo" src="../assets/league-club-1.png">
                                 </div>
@@ -189,14 +189,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     United Fs Club
                                     <img  class="logo" src="../assets/league-club-2.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Shalke Club
                                     <img class="logo" src="../assets/league-club-3.png">
                                 </div>
@@ -204,14 +204,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Inter Club
                                     <img class="logo" src="../assets/league-club-4.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Madrid Club
                                     <img class="logo" src="../assets/league-club-5.png">
                                 </div>
@@ -219,14 +219,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Shalke Club
                                     <img class="logo" src="../assets/league-club-6.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Arsenal Club
                                     <img class="logo" src="../assets/league-club-7.png">
                                 </div>
@@ -234,14 +234,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Bayern Club
                                     <img class="logo" src="../assets/league-club-8.png">
                                 </div>
                             </td>
-                            <td style="vertical-align: middle;">VS</td>
+                            <td class="vs-align">VS</td>
                             <td>
-                                <div style="display: flex; align-items: center;">
+                                <div class="flex-team">
                                     Atletico Club
                                     <img class="logo" src="../assets/league-club-9.png">
                                 </div>
@@ -276,6 +276,12 @@
 h2 {
     font-weight: 700;
     margin: 20px 0;
+    text-align: center;
+}
+
+.flex-team {
+    display: flex;
+    align-items: center;
 }
 
 .bg-black-image {
@@ -316,5 +322,9 @@ h2 {
     margin: 0 10px;
     width: 50px;
     aspect-ratio: 1;
+}
+
+.vs-align {
+    vertical-align: middle;
 }
 </style>
