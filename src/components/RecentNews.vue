@@ -40,7 +40,7 @@
                     <p class="color-text">29.05.2022</p>
                     <h2 class="color-text">Football Terms</h2>
                     <p class="color-text text-width">Golden Goal: in a football match, the goal scored by one of the
-                        teamin[...]</p>
+                        teamin [...]</p>
                     <button class="more-button">More</button>
                 </div>
             </div>
