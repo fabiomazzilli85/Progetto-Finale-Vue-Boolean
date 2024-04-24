@@ -138,6 +138,7 @@ button {
     background-color: transparent;
     font-weight: 700;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 .flex-title {
