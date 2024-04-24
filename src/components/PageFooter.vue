@@ -84,7 +84,9 @@ button {
     margin: 0 25px;
 }
 
-h2, p, .color-block1 {
+h2,
+p,
+.color-block1 {
     color: white;
 }
 
@@ -101,7 +103,7 @@ h2, p, .color-block1 {
 .footer-flex {
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
 }
 
 a {
