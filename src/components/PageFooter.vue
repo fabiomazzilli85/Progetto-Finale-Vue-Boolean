@@ -12,7 +12,7 @@
                 </ul>
             </div>
 
-            <div class="col-md-6">
+            <div class="line-height-block2 col-md-6">
                 <!-- Contenuto del blocco 2 -->
                 <h2 class="footer-paragraph">{{ block2.title }}</h2>
                 <p class="footer-paragraph">{{ block2.paragraph }}</p>
@@ -59,6 +59,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+footer {
+    background-image: url("../assets/footer-bg-football.jpg");
+    padding: 30px;
+}
+
 button {
     background-color: white;
     color: grey;
@@ -69,10 +74,6 @@ button {
     text-align: center;
     width: 250px;
     cursor: pointer;
-}
-
-.footer-list {
-    list-style: disc;
 }
 
 .footer-paragraph {
@@ -88,20 +89,24 @@ h2, p, .color-block1 {
 }
 
 .mr-list-block {
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
-footer {
-    background-image: url("../assets/footer-bg-football.jpg");
+.line-height-block2 {
+    line-height: 30px;
 }
 
 .footer-flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
     color: white;
     text-decoration: none;
+    line-height: 30px;
 }
 </style>
