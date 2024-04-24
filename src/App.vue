@@ -1,7 +1,8 @@
 <template>
   <div>
-    <PageHeader :navLinks="navLinks"/>
+    <PageHeader :navLinks="navLinks" />
     <MainPage />
+    <UpcomingMatches />
     <CardPlayer />
     <TableResults />
     <RecentNews />
@@ -14,6 +15,7 @@
 <script>
 import PageHeader from './components/PageHeader.vue';
 import MainPage from './components/MainPage.vue';
+import UpcomingMatches from './components/UpcomingMatches.vue';
 import CardPlayer from './components/CardPlayer.vue';
 import TableResults from './components/TableResults.vue';
 import RecentNews from './components/RecentNews.vue';
@@ -26,6 +28,7 @@ export default {
     PageHeader,
     MainPage,
     CardPlayer,
+    UpcomingMatches,
     TableResults,
     RecentNews,
     PageFooter
@@ -84,17 +87,9 @@ export default {
           { text: "Contact", url: "#" }
         ]
       },
-
-      // In PageFooter ci sono quattro blocchi che "spedisco" da App.vue tramite props. Stampo diversi elementi, tra cui testi, liste, bottoni...
     };
   }
 };
-
-// imageHeaders: [
-//   "../assets/sponsor1.png",
-//   "../assets/sponsor2.png",
-//   "../assets/logo-football.png"
-// ]
 </script>
 
 <style lang="scss">
