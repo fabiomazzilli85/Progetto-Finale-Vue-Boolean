@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <h2>Upcoming Matches</h2>
-        
+
 
         <div class="flex-match">
             <div class="flex-club font-club">
@@ -50,7 +50,7 @@
         <div class="ticket">
             <p>October 20, 2022, 17.00 PM</p>
             <p>Espert Stadium</p>
-         </div>
+        </div>
 
         <div class="flex-match">
             <div class="flex-club font-club">
@@ -64,15 +64,15 @@
             </div>
         </div>
         <div class="ticket">
-             <p>October 20, 2022, 17.00 PM</p>
+            <p>October 20, 2022, 17.00 PM</p>
             <p>Espert Stadium</p>
         </div>
 
 
         <div class="flex-match">
-             <div class="flex-club font-club">
-                 Istanbul Sportds
-                 <img class="logo" src="../assets/club-11.png">
+            <div class="flex-club font-club">
+                Istanbul Sportds
+                <img class="logo" src="../assets/club-11.png">
             </div>
             <div class="vs-font">VS</div>
             <div class="flex-club font-club">
