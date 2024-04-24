@@ -4,8 +4,6 @@
             <img class="sponsor" src="../assets/sponsor1.png">
             <img src="../assets/logo-football.png">
             <img class="sponsor" src="../assets/sponsor2.png">
-            <!-- <font-awesome-icon :icon="['fab', 'facebook-f']" /> -->
-            <!-- <img v-for="(image, index) in imageHeaders" :src="image" :key="index" class="sponsor-logo" /> -->
         </div>
         <div class="navLinks">
             <nav>
@@ -20,22 +18,14 @@
 </template>
 
 <script>
-// import FontAwesomeIcon from '../main.js'
 
 export default {
-    //   components: {
-    //     FontAwesomeIcon
-    //   },
 
     props: {
         navLinks: {
             type: Array,
             required: true
         },
-        // imageHeaders: {
-        //     type: Array,
-        //     required: true
-        // }
     }
 };
 </script>
