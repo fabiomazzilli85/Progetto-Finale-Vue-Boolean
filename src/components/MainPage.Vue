@@ -94,6 +94,7 @@ h1 {
     border-radius: 25px;
     border: none;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .flex-match {
