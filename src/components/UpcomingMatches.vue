@@ -100,7 +100,8 @@ h2 {
 }
 
 p {
-    color: white
+    color: white;
+    font-size: 20px;
 }
 
 .flex-match {
@@ -117,6 +118,7 @@ p {
     align-items: center;
     gap: 10px;
     color: white;
+    font-size: 22px;
 }
 
 .logo {
