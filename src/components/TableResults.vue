@@ -1,89 +1,238 @@
 <template>
-    <section>
-        <table class="table table-dark">
-            <thead>
-                <tr class="black">
-                    <th scope="col">Team</th>
-                    <th scope="col">W</th>
-                    <th scope="col">D</th>
-                    <th scope="col">L</th>
-                    <th scope="col">PTS</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="table-light">1 Istanul Sports</td>
-                    <td class="table-light">18</td>
-                    <td class="table-light">2</td>
-                    <td class="table-light">0</td>
-                    <td class="table-light">42</td>
-                </tr>
+    <section class="mr-table">
+        <div class="flex-table">
+            <div>
+                <h2>League Teable</h2>
+                <table class="padding-table table table-borderless">
+                    <thead>
+                        <tr>
+                            <th scope="col">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">D</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PTS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1 Istanul Sports</td>
+                            <td>18</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>42</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">United Fs Club</td>
-                    <td class="table-light">14</td>
-                    <td class="table-light">2</td>
-                    <td class="table-light">1</td>
-                    <td class="table-light">35</td>
-                </tr>
+                        <tr>
+                            <td>2 United Fs Club</td>
+                            <td>14</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>35</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">Shalke Club</td>
-                    <td class="table-light">13</td>
-                    <td class="table-light">3</td>
-                    <td class="table-light">0</td>
-                    <td class="table-light">32</td>
-                </tr>
+                        <tr>
+                            <td>3 Shalke Club</td>
+                            <td>13</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>32</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">Inter Club</td>
-                    <td class="table-light">13</td>
-                    <td class="table-light">2</td>
-                    <td class="table-light">1</td>
-                    <td class="table-light">31</td>
-                </tr>
+                        <tr>
+                            <td>4 Inter Club</td>
+                            <td>13</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>31</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">Madrid Club</td>
-                    <td class="table-light">12</td>
-                    <td class="table-light">1</td>
-                    <td class="table-light">2</td>
-                    <td class="table-light">30</td>
-                </tr>
+                        <tr>
+                            <td>5 Madrid Club</td>
+                            <td>12</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>30</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">Shalke Club</td>
-                    <td class="table-light">11</td>
-                    <td class="table-light">0</td>
-                    <td class="table-light">3</td>
-                    <td class="table-light">28</td>
-                </tr>
+                        <tr>
+                            <td>6 Shalke Club</td>
+                            <td>11</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>28</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">Arsenal Club</td>
-                    <td class="table-light">10</td>
-                    <td class="table-light">5</td>
-                    <td class="table-light">0</td>
-                    <td class="table-light">26</td>
-                </tr>
+                        <tr>
+                            <td>7 Arsenal Club</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>26</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">Bayern Club</td>
-                    <td class="table-light">10</td>
-                    <td class="table-light">2</td>
-                    <td class="table-light">2</td>
-                    <td class="table-light">24</td>
-                </tr>
+                        <tr>
+                            <td>8 Bayern Club</td>
+                            <td>10</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>24</td>
+                        </tr>
 
-                <tr>
-                    <td class="table-light">Atletico Club</td>
-                    <td class="table-light">9</td>
-                    <td class="table-light">0</td>
-                    <td class="table-light">4</td>
-                    <td class="table-light">20</td>
-                </tr>
-            </tbody>
-        </table>
+                        <tr>
+                            <td>9 Atletico Club</td>
+                            <td>9</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div>
+                <h2>Fixtures & Results</h2>
+
+                <table class="padding-table table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Istanul Sport
+                                    <img class="logo" src="../assets/league-club-1.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    United FS Club
+                                    <img class="logo" src="../assets/league-club-2.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Shalke Club
+                                    <img class="logo" src="../assets/league-club-3.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Inter Club
+                                    <img class="logo" src="../assets/league-club-4.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Madrid Club
+                                    <img class="logo" src="../assets/league-club-5.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Shalke Club
+                                    <img class="logo" src="../assets/league-club-6.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Arsenal Club
+                                    <img class="logo" src="../assets/league-club-7.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Bayern Club
+                                    <img class="logo" src="../assets/league-club-8.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Atletico Club
+                                    <img class="logo" src="../assets/league-club-9.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Istanul Sport
+                                    <img class="logo" src="../assets/league-club-1.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    United Fs Club
+                                    <img  class="logo" src="../assets/league-club-2.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Shalke Club
+                                    <img class="logo" src="../assets/league-club-3.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Inter Club
+                                    <img class="logo" src="../assets/league-club-4.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Madrid Club
+                                    <img class="logo" src="../assets/league-club-5.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Shalke Club
+                                    <img class="logo" src="../assets/league-club-6.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Arsenal Club
+                                    <img class="logo" src="../assets/league-club-7.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Bayern Club
+                                    <img class="logo" src="../assets/league-club-8.png">
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">VS</td>
+                            <td>
+                                <div style="display: flex; align-items: center;">
+                                    Atletico Club
+                                    <img class="logo" src="../assets/league-club-9.png">
+                                </div>
+                            </td>
+                        </tr>    
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </section>
 
     <section class="bg-black-image">
@@ -100,12 +249,25 @@
 </script>
 
 <style lang="scss" scoped>
+@import 'bootstrap/dist/css/bootstrap.css';
+
+.mr-table {
+    margin: 35px 0;
+}
+
+h2 {
+    font-weight: 700;
+    margin: 20px 0;
+}
+
 .bg-black-image {
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 200px;
+    gap: 15px;
+    padding: 0 15px;
 }
 
 .image-resize {
@@ -116,9 +278,31 @@
     margin: 10px 5px;
 }
 
-.slider-resize {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+
+.bg-botton {
+    background-color:black;
+    color: white;
+}
+
+.match {
+    line-height: 40px;
+}
+
+.flex-table {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.padding-table {
+    padding: 15px;
+    width: 520px;
+    height: 700px;
+}
+
+.logo {
+    margin: 0 10px;
+    width: 50px;
+    aspect-ratio: 1;
 }
 </style>
