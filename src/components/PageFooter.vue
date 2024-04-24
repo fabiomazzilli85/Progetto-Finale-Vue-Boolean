@@ -6,7 +6,7 @@
                 <!-- Contenuto del blocco 1 -->
                 <img :src="block1.imageSrc" />
                 <ul>
-                    <li v-for="item in block1.listItems" :key="item.text">
+                    <li class="color-black1" v-for="item in block1.listItems" :key="item.text">
                         {{ item.text }}
                     </li>
                 </ul>
@@ -83,21 +83,21 @@ button {
     margin: 0 25px;
 }
 
+h2, p, .color-black1 {
+    color: white;
+}
+
 .mr-list-block {
     margin-right: 20px;
 }
 
 footer {
-
     background-image: url("../assets/footer-bg-football.jpg");
-    padding: 30px;
-    line-height: 35px;
 }
 
 .footer-flex {
     display: flex;
     justify-content: center;
-    gap: 45px;
 }
 
 a {
