@@ -92,7 +92,8 @@
     align-items: center;
     border: 1px solid lightgrey;
     line-height: 27px;
-    padding: 0 13px;
+    padding: 0 8px;
+
 }
 
 .pd-bottom-section {
