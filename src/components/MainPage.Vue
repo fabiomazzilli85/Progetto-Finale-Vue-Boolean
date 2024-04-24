@@ -61,6 +61,7 @@ h1 {
     text-align: center;
     font-weight: 800;
     color: white;
+    font-size: 30px;
 }
 
 .text-white {
