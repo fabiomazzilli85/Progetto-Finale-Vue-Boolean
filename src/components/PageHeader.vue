@@ -1,20 +1,22 @@
 <template>
-    <div class="main-header">
-        <div class="sponsor-logos">
-            <img class="sponsor" src="../assets/sponsor1.png">
-            <img src="../assets/logo-football.png">
-            <img class="sponsor" src="../assets/sponsor2.png">
-            <!-- <font-awesome-icon :icon="['fab', 'facebook-f']" /> -->
-            <!-- <img v-for="(image, index) in imageHeaders" :src="image" :key="index" class="sponsor-logo" /> -->
-        </div>
-        <div class="navLinks">
-            <nav>
-                <ul>
-                    <li v-for="(link, index) in navLinks" :key="index">
-                        <a :href="link.url">{{ link.text }}</a>
-                    </li>
-                </ul>
-            </nav>
+    <div class="container">
+        <div class="main-header">
+            <div class="sponsor-logos">
+                <img class="sponsor" src="../assets/sponsor1.png">
+                <img src="../assets/logo-football.png">
+                <img class="sponsor" src="../assets/sponsor2.png">
+                <!-- <font-awesome-icon :icon="['fab', 'facebook-f']" /> -->
+                <!-- <img v-for="(image, index) in imageHeaders" :src="image" :key="index" class="sponsor-logo" /> -->
+            </div>
+            <div class="navLinks">
+                <nav>
+                    <ul>
+                        <li v-for="(link, index) in navLinks" :key="index">
+                            <a :href="link.url">{{ link.text }}</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </template>
