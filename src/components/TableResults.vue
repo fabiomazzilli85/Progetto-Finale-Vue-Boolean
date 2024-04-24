@@ -1,7 +1,89 @@
 <template>
     <section>
-        <img class="slider-resize" src="../assets/slider3.jpg" alt="">
-        <!-- Ho inserito questa immagine anziché src="../assets/reklam.jpg", come richiesto dal compito, poiché non la visualizza, sebbene sia stata inserita correttamente.  -->
+        <table class="table table-dark">
+            <thead>
+                <tr class="black">
+                    <th scope="col">Team</th>
+                    <th scope="col">W</th>
+                    <th scope="col">D</th>
+                    <th scope="col">L</th>
+                    <th scope="col">PTS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="table-light">1 Istanul Sports</td>
+                    <td class="table-light">18</td>
+                    <td class="table-light">2</td>
+                    <td class="table-light">0</td>
+                    <td class="table-light">42</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">United Fs Club</td>
+                    <td class="table-light">14</td>
+                    <td class="table-light">2</td>
+                    <td class="table-light">1</td>
+                    <td class="table-light">35</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">Shalke Club</td>
+                    <td class="table-light">13</td>
+                    <td class="table-light">3</td>
+                    <td class="table-light">0</td>
+                    <td class="table-light">32</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">Inter Club</td>
+                    <td class="table-light">13</td>
+                    <td class="table-light">2</td>
+                    <td class="table-light">1</td>
+                    <td class="table-light">31</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">Madrid Club</td>
+                    <td class="table-light">12</td>
+                    <td class="table-light">1</td>
+                    <td class="table-light">2</td>
+                    <td class="table-light">30</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">Shalke Club</td>
+                    <td class="table-light">11</td>
+                    <td class="table-light">0</td>
+                    <td class="table-light">3</td>
+                    <td class="table-light">28</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">Arsenal Club</td>
+                    <td class="table-light">10</td>
+                    <td class="table-light">5</td>
+                    <td class="table-light">0</td>
+                    <td class="table-light">26</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">Bayern Club</td>
+                    <td class="table-light">10</td>
+                    <td class="table-light">2</td>
+                    <td class="table-light">2</td>
+                    <td class="table-light">24</td>
+                </tr>
+
+                <tr>
+                    <td class="table-light">Atletico Club</td>
+                    <td class="table-light">9</td>
+                    <td class="table-light">0</td>
+                    <td class="table-light">4</td>
+                    <td class="table-light">20</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <section class="bg-black-image">
@@ -36,5 +118,7 @@
 
 .slider-resize {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 </style>
