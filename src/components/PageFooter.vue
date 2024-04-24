@@ -6,7 +6,7 @@
                 <!-- Contenuto del blocco 1 -->
                 <img :src="block1.imageSrc" />
                 <ul>
-                    <li class="color-black1" v-for="item in block1.listItems" :key="item.text">
+                    <li class="color-block1" v-for="item in block1.listItems" :key="item.text">
                         {{ item.text }}
                     </li>
                 </ul>
@@ -83,7 +83,7 @@ button {
     margin: 0 25px;
 }
 
-h2, p, .color-black1 {
+h2, p, .color-block1 {
     color: white;
 }
 
