@@ -14,17 +14,16 @@
 <style lang="scss" scoped>
 .container {
     background-image: url(../assets/slider2-1.jpg);
-    background-size: cover; 
-    background-position: center;
+    background-size: cover;     
+    background-position: center; 
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    height: 600px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 20px; 
 }
-
 
 h1 {
     text-align: center;
@@ -58,6 +57,6 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 35px;
+    gap: 20px;
 }
 </style>
