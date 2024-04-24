@@ -125,6 +125,7 @@ h1 {
 
 .team-weight {
     font-weight: 900;
+    font-size: 20px;
 }
 
 .fs-VS {
