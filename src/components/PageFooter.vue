@@ -101,7 +101,7 @@ h2, p, .color-block1 {
 .footer-flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-start;
 }
 
 a {
